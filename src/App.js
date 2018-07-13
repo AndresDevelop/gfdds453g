@@ -7,8 +7,8 @@ export class App extends Component {
     return (
       <div>
         <nav>
-          <Link to="page1" />
-          <Link to="page2"/>
+          <Link to="/page1">Page 1</Link>
+          <Link to="/page2">Page 2</Link>
         </nav>
         {/* Aca tienes que agreager algo para que las rutas funcionen*/}
       </div>
